@@ -1,3 +1,5 @@
+SET SERVEROUTPUT ON;
+/
 CREATE OR REPLACE PROCEDURE check_salary
 (p_job_id IN jobs.job_id%type)
 IS
